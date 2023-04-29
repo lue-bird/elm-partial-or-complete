@@ -114,8 +114,8 @@ to return a `complete` value.
     import Linear exposing (Direction(..))
     import List.Linear
 
-    listTake : Int -> (List element -> List element)
-    listTake lengthToTake list =
+    listTakeFromLast : Int -> (List element -> List element)
+    listTakeFromLast lengthToTake list =
         list
             |> List.Linear.foldUntilCompleteFrom []
                 Down
