@@ -237,7 +237,7 @@ justOnComplete =
     import List.Linear
 
     [ Err "a", Err "b", Ok 55, Err "d" ]
-        |> List.Linear.foldUntilCompleteFrom ()
+        |> List.Linear.foldUntilCompleteFrom "empty list"
             Up
             (\element _ -> element |> PartialOrComplete.completeOnOk)
         |> PartialOrComplete.okOnComplete
@@ -261,7 +261,7 @@ completeOnOk =
     import List.Linear
 
     [ Err "a", Err "b", Ok 55, Err "d" ]
-        |> List.Linear.foldUntilCompleteFrom ()
+        |> List.Linear.foldUntilCompleteFrom "empty list"
             Up
             (\element _ -> element |> PartialOrComplete.completeOnOk)
         |> PartialOrComplete.okOnComplete
