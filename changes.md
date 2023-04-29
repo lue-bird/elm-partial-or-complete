@@ -2,4 +2,4 @@
 
 #### 1.0.1
 
-  - documentation example correct
+  - documentation examples correct
