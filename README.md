@@ -43,6 +43,7 @@
     step : InProgress -> Step
     ```
     step-by-step testing, benchmarking, parsing, simplifying/shrinking, evaluating, ...
+      - [`Trampoline.StepResult`](https://dark.elm.dmy.fr/packages/mgree/trampoline/latest/Trampoline#StepResult)
 
 Maybe it makes sense to have a shared type in a shared place?
 With shared documentation and helpers?
