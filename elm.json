@@ -3,7 +3,7 @@
     "name": "lue-bird/elm-partial-or-complete",
     "summary": "keep going with a partial value or stop with the result",
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "exposed-modules": [
         "PartialOrComplete"
     ],
